@@ -1,0 +1,37 @@
+.form-control-sm:hover{
+    width: 300px;
+}
+.form-control-sm{
+    width: 150px;
+   
+}
+
+li{
+    width: 105px;
+}
+i{
+    font-size: 18px; 
+}
+.Get{
+    color: chocolate;
+}
+
+.btn{
+    margin:0 5px ;
+}
+.body{
+    background-color: rgb(241, 239, 239);
+}
+.foot i{
+    font-size: 20px;
+}
+.row{
+    margin: 10px 0;
+}
+/* Here is my responsiveness design */
+@media (max-width: 950px) {
+    .logo{
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
