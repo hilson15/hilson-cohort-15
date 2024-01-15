@@ -1,0 +1,80 @@
+.up{ text-align: center;}
+        p {font-size: 12px;}
+        p a{ text-decoration: none;}
+        .linked{ text-decoration: none; justify-content:right;}
+        h2{ text-align: center; margin-bottom: 45px;}
+        .container2{  margin: auto; border-radius: 20px;width: 450px;height: 520px; }
+        input[type=submit].form-control{padding: 10px 5px;border-radius: 25px;font-weight: bold; 
+          background-color: rgb(65, 102, 225);color: aliceblue;}
+        input[type=text].form-control{ border: 1px solid;}
+        input[type=password].password-input{ border: 1px solid; padding:8px 130px 8px 9px;border-radius: 10px;}
+        .or-container{  display: flex; align-items: center;width: 85%; margin-left: 30px;}
+        .line{ flex-grow: 1;
+          height: 1px;
+          background-color: rgb(194, 186, 186);
+          margin: 0 13px; }
+          .img img{ position: absolute; top: 89.0%; right:57%;}
+        button.google{padding: 6px 82px;border-radius: 25px;text-align: center;font-weight:light;border:1px solid black;}
+       p.link a { color: black;text-decoration: none;display: flex;}
+        span.copyright{ font-size: 14px; color: rgb(8, 8, 8);}
+        p a:hover{ text-decoration: underline;}
+        button.google:hover{outline: 3px solid lightslategray;} 
+
+        .password-container {
+          position: relative;
+      }
+
+      .password-input {
+          padding-right: 30px; /* Adjust padding to make space for the toggle */
+      }
+      input[ type=password]:hover{  border: 1px solid dodgerblue;}
+
+      .toggle-password {
+          position: absolute;
+          top: 65%;
+          right: 10px;
+          transform: translateY(-50%);
+          cursor: pointer;
+          font-weight: bold;
+      }
+
+      /* Hide the checkbox visually */
+      .password-container input[type="checkbox"] {
+          position: absolute;
+          opacity: 0;
+      }
+
+      /* Style the default and checked states of the checkbox */
+      .password-container input[type="checkbox"] + .toggle-password::before {
+           content: 'Show';color: blue; 
+      }
+
+      .password-container input[type="checkbox"]:checked + .toggle-password::before {
+          content: 'Hide'; color: blue;
+      }
+      
+      
+      
+      
+         
+    
+            
+        @media screen and (min-width:300px)  and (max-width:800px) {#container{ background-color:blue;}
+        .img img{ position: relative; left: 28%; top: 89.0%; } 
+           .link  { display:flex; flex-wrap:wrap ; margin-left: 80px;}
+           .link a{flex-basis: 50%;  }
+            .in { position: absolute; left: 19%; ;}
+            
+
+        }
+
+       
+           
+        
+        @media screen and (min-width:1000px) { .img img { position: absolute;top:93.3%; left: 39.9%; }
+           }
+           @media screen and (min-width:1200px) {.img img { position: absolute; top:93.5% ; left:42% ; }
+            }
+            
+              
+            
