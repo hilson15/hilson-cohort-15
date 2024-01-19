@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/image/watching.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+.header {
+    margin-bottom: 12px;
+    height: 6%;
+    align-items: center;
+}
+
+.fa-linkedin {
+    font-size: 30px;
+
+}
+
+.learning {
+    letter-spacing: 4px;
+font-size: 20px;
+}
+
+.in {
+    align-items: center;
+}
+
+span {
+    align-items: center;
+    padding-bottom: px;
+}
+
+.main {
+    padding: 5px;
+    width: 42%;
+    height: 75%;
+    margin-bottom: 18px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.mainlogo img {
+    width: 80px;
+    
+}
+
+.p2div {
+    text-align: center;
+}
+
+.p2{
+    width: 70%;
+    margin: auto;
+}
+
+.user {
+    margin: auto;
+}
+
+.uname, .pswd {
+    height: 9vh;
+    margin: 0 auto;
+
+}
+
+
+
+p {
+    text-align: center;
+}
+
+.mainlogo {
+    text-align: center;
+    
+}
+
+
+
+
+.footer {
+    height: 9%;
+}
+
+
+
+/* .navbar-nav {
+    width:25%;
+    margin: auto;  
+  
+} */
+
+.nav-item {
+    padding: 0 20px;
+   
+}
+
+.nav-item a{
+  font-size: 8;
+  text-decoration: none;
+  
+}
+
+
+.bar1 {
+    margin-top: 1px;
+    margin-bottom: 15px
+   
+    padding: ;
+   
+    
+}
+
+.bar2 {
+    margin: 0 auto;
+}
+
+
+
+
+.about, .instructor, .help {
+    font-size: 11px;
+    padding: 0 5px; 
+}
+
+
+.bottombrand {
+    width: 80px;
+}
+
+.bl{ padding: 2px;}
+
+.bottomlinks {
+    font-size: 12px;
+    width: 100%;
+    padding-left: 2px;
+    align-items: center;
+}
+
+.copy {
+    font-size: 15px;
+}
+
