@@ -2,8 +2,9 @@
     width: 300px;
 }
 .form-control-sm{
-    width: 150px;
-   
+    width: 150px; 
+    height: 7vh; 
+    margin-top: 8px;
 }
 
 li{
@@ -34,4 +35,17 @@ i{
        display: flex;
        flex-wrap: wrap;
     }
+    
+    .form-control-sm:hover{
+        width: 250px;
+    }
+    .form-control-sm{
+        width: 150px;
+       
+    }
+    .button{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
